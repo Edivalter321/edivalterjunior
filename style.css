@@ -4,35 +4,24 @@
   margin: 0;
   text-decoration: none;
 }
-#menu-01 .barra {
-  width: 1440px;
-  height: 192px;
-  flex-shrink: 0;
-  background-color: aqua;
+#menu-01 {
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
 }
 .barra {
   display: flex;
-  width: 1440px;
-  height: 192px;
+  justify-content: baseline;
 }
-img {
+.barra_img img {
   width: 33px;
   height: 33px;
-  color: #c92071;
+  border: 0;
+  border-radius: 5px;
 }
-
 .barra02 {
   font-family: "Inter", sans-serif;
-  font-size: 36.395px;
   font-weight: 600;
-  line-height: normal;
-  letter-spacing: -0.364px;
-}
-.barra02 {
-  width: 212px;
-  height: 44px;
-}
-button {
-  width: 114;
-  height: 40;
+  font-size: 36.4px;
+  color: #c92071;
 }
