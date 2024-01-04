@@ -3,18 +3,15 @@
   padding: 0;
   margin: 0;
 }
-#barra {
+.barra {
   width: 1440px;
   height: 192px;
   flex-shrink: 0;
   background: #fff;
   box-shadow: 0px 10px 30px 0px rgba(141, 114, 32, 0.05);
   margin-top: 42px;
-  padding-left: 100px;
 }
-#barra .barra_superior svg {
-}
-.text {
+.barra .text {
   color: var(--primary, #c92071);
   font-family: Inter;
   font-size: 36.395px;
@@ -24,6 +21,67 @@
   letter-spacing: -0.364px;
   text-decoration: none;
   list-style: none;
+}
+.barra .search {
+  display: inline-block;
+  justify-content: space-between;
+  position: absolute;
+  margin-left: 32.5rem;
+  margin-top: 20px;
+  border-radius: 8px;
+  opacity: 0.5;
+}
+.barra input {
+  width: 559px;
+  height: 60px;
+  border-radius: 8px;
+  opacity: 0.04;
+  background: var(--dark-gray-2, #474747);
+}
+.barra input placeholder {
+  color: var(--dark-gray-3, #666);
+  font-feature-settings: "clig" off, "liga" off;
+}
+.barra input placeholder {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.75px;
+}
+.barra a {
+  color: var(--dark-gray-2, #474747);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.75px;
+  text-decoration-line: underline;
+}
+.barra button {
+  width: 114px;
+  height: 40px;
+  border: 0;
+  border-radius: 8px;
+  background-color: #c92071;
+  flex-shrink: 0;
+}
+.barra button {
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.75px;
+  color: var(--light-gray-3, #f5f5f5);
+}
+.barra .carrinho {
+  display: inline-block;
+  justify-content: space-between;
+  width: 1rem;
 }
 
 .barra_inferior {
