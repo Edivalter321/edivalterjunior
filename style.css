@@ -15,8 +15,8 @@
 .barra_superior {
   display: flex;
   justify-content: space-between;
-  padding-left: 104px;
-  padding-right: 104px;
+  padding-left: 90px;
+  padding-right: 155px;
   padding-top: 42px;
 }
 .barra_superior .imagem_01 .text {
@@ -28,8 +28,104 @@
   letter-spacing: -0.364px;
   color: var(--primary, #c92071);
 }
+.imagem_02 {
+  display: flex;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  padding: 2.778px 2.458px 2px 2.778px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  opacity: 0.5;
+  color: #666666;
+}
+.imagem_02 {
+  margin-left: 50.5rem;
+  margin-top: 11px;
+}
+.inputs input {
+  width: 559px;
+  height: 45px;
+  flex-shrink: 0;
+  border: 0;
+  border-radius: 8px;
+  background: var(--dark-gray-2, #f5f1f1);
+}
+.inputs input::placeholder {
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.75px;
+  color: #666666;
+  opacity: 1;
+  padding-left: 24px;
+}
+.text_02 {
+  color: var(--dark-gray-2, #474747);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  letter-spacing: 0.75px;
+  text-decoration-line: underline;
+}
+.botao button {
+  width: 114px;
+  height: 40px;
+  flex-shrink: 0;
+  border: 0;
+  border-radius: 10px;
+  color: var(--light-gray-3, #f5f5f5);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.75px;
+  background-color: var(--primary, #c92071);
+}
+.carrinho {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
 
 .barra_inferior {
   display: flex;
   justify-content: flex-start;
+  padding-top: 3.5rem;
+  padding-left: 90px;
+}
+.barra_inferior .home {
+  color: var(--primary, #c92071);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+  padding-right: 1.5rem;
+  text-decoration: underline 2px;
+}
+.barra_inferior a {
+  color: var(--dark-gray-2, #474747);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.75px;
+  margin-right: 1.5rem;
 }
