@@ -43,11 +43,11 @@
 }
 .imagem_02 {
   margin-left: 50.5rem;
-  margin-top: 11px;
+  margin-top: 7px;
 }
 .inputs input {
   width: 559px;
-  height: 45px;
+  height: 40px;
   flex-shrink: 0;
   border: 0;
   border-radius: 8px;
@@ -56,7 +56,7 @@
 .inputs input::placeholder {
   font-feature-settings: "clig" off, "liga" off;
   font-family: Inter;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
@@ -77,8 +77,8 @@
   text-decoration-line: underline;
 }
 .botao button {
-  width: 114px;
-  height: 40px;
+  width: 90px;
+  height: 34px;
   flex-shrink: 0;
   border: 0;
   border-radius: 10px;
@@ -128,4 +128,81 @@
   line-height: 28px;
   letter-spacing: 0.75px;
   margin-right: 1.5rem;
+}
+main {
+  width: 1440px;
+  height: 681px;
+  flex-shrink: 0;
+  background: var(--light-gray-3, #f5f5f5);
+}
+.sessao_01 {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 90px;
+}
+.sessao_01 .lado_a {
+  width: 35rem;
+  height: 30rem;
+  margin-top: 4rem;
+}
+.sessao_01 .lado_a .subtitulo {
+  color: var(--warning, #f6aa1c);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+}
+.sessao_01 h1 {
+  color: var(--dark-gray, #1f1f1f);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  font-weight: bolder;
+  line-height: 66px;
+  letter-spacing: 1px;
+  width: 510px;
+  height: 132px;
+  flex-shrink: 0;
+}
+.sessao_01 p {
+  color: var(--dark-gray-2, #474747);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0.75px;
+}
+.sessao_01 button {
+  width: 200px;
+  height: 45px;
+  flex-shrink: 0;
+  border: 0;
+  color: var(--light-gray-3, #f5f5f5);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+  background-color: var(--primary, #c92071);
+  border-radius: 4px;
+  align-items: center;
+  margin-top: 2rem;
+}
+.sessao_01 .lado_b {
+  width: 733.506px;
+  height: 431.606px;
+  transform: rotate(-19.343deg);
+  flex-shrink: 0;
+  margin-top: -4rem;
+  margin-right: 5rem;
 }
