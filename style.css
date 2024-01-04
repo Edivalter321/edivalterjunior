@@ -1,10 +1,64 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter+Tight&family=Inter:wght@300;400&family=Newsreader:opsz,wght@6..72,500&family=Raleway&family=Roboto:wght@300;400&display=swap");
-@mui/icons-material/Search';
 * {
   padding: 0;
   margin: 0;
+}
+#barra {
+  width: 1440px;
+  height: 192px;
+  flex-shrink: 0;
+  background: #fff;
+  box-shadow: 0px 10px 30px 0px rgba(141, 114, 32, 0.05);
+  margin-top: 42px;
+  padding-left: 100px;
+}
+#barra .barra_superior svg {
+}
+.text {
+  color: var(--primary, #c92071);
+  font-family: Inter;
+  font-size: 36.395px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.364px;
   text-decoration: none;
-  font-family: "Inter", sans-serif;
+  list-style: none;
 }
 
+.barra_inferior {
+  padding-top: 80px;
+  padding-bottom: 32px;
+}
+.barra_inferior .home {
+  font-family: inter;
+  color: #c92071;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+}
+.barra_inferior .home {
+  width: 49px;
+  height: 2px;
+  flex-shrink: 0;
+  text-decoration: underline 2px;
+  text-underline-offset: 3px;
 
+  color: #c92071;
+}
+
+.barra_inferior a {
+  font-family: inter;
+  text-decoration: none;
+  color: var(--dark-gray-2, #474747);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.75px;
+  margin: 20px;
+}
