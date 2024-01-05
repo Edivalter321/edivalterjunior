@@ -41,8 +41,8 @@
   color: #666666;
 }
 .imagem_02 {
-  margin-left: 50.5rem;
-  margin-top: 7px;
+  margin-left: 52.5rem;
+  margin-top: 6px;
 }
 .inputs input {
   width: 559px;
@@ -276,16 +276,6 @@
   line-height: 36px;
   letter-spacing: 1px;
   width: 172px;
-}
-.caixa_01 .botao_01 a {
-  color: var(--dark-gray-2, #474747);
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: Inter;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 22px;
-  letter-spacing: 0.75px;
 }
 .caixa_02 {
   width: 405px;
