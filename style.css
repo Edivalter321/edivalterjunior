@@ -266,6 +266,41 @@
   border-radius: 8px;
   background: #d8e3f2;
 }
+.caixa_01 button {
+  margin-left: 30px;
+  margin-top: 39px;
+  color: var(--dark-gray-2, #474747);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.75px;
+  border: 0;
+  border-radius: 29px;
+  background: #e7ff86;
+  padding: 5px 20px;
+}
+.botao_1a button {
+  color: var(--primary, #c92071);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+  width: 153px;
+  height: 48px;
+  background-color: #f5f5f5;
+  border: 0;
+  border-radius: 8px;
+  margin-left: 30px;
+  margin-top: 20px;
+  position: absolute;
+}
 .caixa_01 h3 {
   color: var(--dark-gray, #1f1f1f);
   font-feature-settings: "clig" off, "liga" off;
@@ -276,13 +311,37 @@
   line-height: 36px;
   letter-spacing: 1px;
   width: 172px;
+  margin-left: 30px;
+  margin-top: 20px;
 }
+.caixa_01 img {
+  position: absolute;
+  margin-left: 164px;
+  margin-top: -154px;
+}
+
 .caixa_02 {
   width: 405px;
   height: 251px;
   flex-shrink: 0;
   border-radius: 8px;
   background: #d8e3f2;
+}
+.caixa_02 button {
+  margin-left: 30px;
+  margin-top: 39px;
+  color: var(--dark-gray-2, #474747);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.75px;
+  border: 0;
+  border-radius: 29px;
+  background: #e7ff86;
+  padding: 5px 20px;
 }
 .caixa_02 h3 {
   color: var(--dark-gray, #1f1f1f);
@@ -294,6 +353,27 @@
   line-height: 36px;
   letter-spacing: 1px;
   width: 172px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.botao_1b button {
+  color: var(--primary, #c92071);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+  width: 153px;
+  height: 48px;
+  background-color: #f5f5f5;
+  border: 0;
+  border-radius: 8px;
+  margin-left: 30px;
+  margin-top: 20px;
+  position: absolute;
 }
 
 .caixa_03 {
@@ -302,6 +382,22 @@
   flex-shrink: 0;
   border-radius: 8px;
   background: #d8e3f2;
+}
+.caixa_03 button {
+  margin-left: 30px;
+  margin-top: 39px;
+  color: var(--dark-gray-2, #474747);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.75px;
+  border: 0;
+  border-radius: 29px;
+  background: #e7ff86;
+  padding: 5px 20px;
 }
 .caixa_03 h3 {
   color: var(--dark-gray, #1f1f1f);
@@ -313,4 +409,25 @@
   line-height: 36px;
   letter-spacing: 1px;
   width: 184px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.botao_1c button {
+  color: var(--primary, #c92071);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+  width: 153px;
+  height: 48px;
+  background-color: #f5f5f5;
+  border: 0;
+  border-radius: 8px;
+  margin-left: 30px;
+  margin-top: 20px;
+  position: absolute;
 }
