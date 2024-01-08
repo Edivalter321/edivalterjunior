@@ -441,10 +441,16 @@
   margin-left: 179px;
   margin-top: -163px;
 }
+.promo_02 {
+  text-align: center;
+  margin-top: 3rem;
+  margin-left: -5rem;
+}
 .imagens_03 {
   display: flex;
   justify-content: center;
   margin-top: 40px;
+  margin-left: 4rem;
 }
 .img_03a {
   width: 64px;
@@ -514,6 +520,7 @@
   letter-spacing: 0.75px;
   color: var(--dark-gray-2, #474747);
   text-align: center;
+  margin-left: 2rem;
 }
 .text_03a {
   width: 79px;
