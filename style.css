@@ -1193,10 +1193,10 @@ main {
   font-size: 38px;
   font-style: normal;
   font-weight: 700;
-  line-height: 50px;
+  line-height: 45px;
   font-weight: bolder;
   letter-spacing: 1px;
-  margin-top: 10px;
+  margin-top: 17px;
   margin-bottom: 10px;
 }
 .lado_08b p {
@@ -1205,7 +1205,7 @@ main {
   color: var(--dark-gray-2, #474747);
   font-feature-settings: "clig" off, "liga" off;
   font-family: Inter;
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
@@ -1364,6 +1364,11 @@ main {
   display: block;
   justify-content: center;
 }
+.barra_final hr {
+  height: 1px;
+  fill: var(--white, #fff);
+  opacity: 0.3;
+}
 .barra_final p {
   width: 307px;
   color: var(--white, #fff);
@@ -1376,7 +1381,7 @@ main {
 .text_final {
   text-align: center;
   padding-left: 32rem;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 footer {
   width: 1440px;
