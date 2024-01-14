@@ -5,8 +5,8 @@
   text-decoration: none;
 }
 #container {
-  width: 1440px;
-  height: 192px;
+  width: 158vh;
+  height: 22vh;
   flex-shrink: 0;
   background: #fff;
   box-shadow: 0px 10px 30px 0px rgba(141, 114, 32, 0.05);
@@ -140,12 +140,12 @@
   margin-right: 1.5rem;
 }
 main {
-  height: 3120px;
-  width: 1440px;
+  height: 340vh;
+  width: 150vh;
 }
 .sessao_01 {
-  width: 1440px;
-  height: 681px;
+  width: 158vh;
+  height: 75vh;
   flex-shrink: 0;
   background: var(--light-gray-3, #f5f5f5);
   display: flex;
@@ -251,8 +251,8 @@ main {
   margin-left: 7rem;
 }
 .colecao {
-  width: 1440px;
-  height: 3744px;
+  width: 158vh;
+  height: 300vh;
   background-color: #f9f8fe;
 }
 .colecao h4 {
@@ -1387,10 +1387,10 @@ main {
   padding-top: 15px;
 }
 footer {
-  width: 1440px;
-  height: 200px;
+  width: 158vh;
+  height: 20vh;
 }
 header {
-  width: 1440px;
-  height: 190px;
+  width: 158vh;
+  height: 20vh;
 }
