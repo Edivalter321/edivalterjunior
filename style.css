@@ -26,11 +26,14 @@
   line-height: normal;
   letter-spacing: -0.364px;
   color: var(--primary, #c92071);
+  padding-left: 34px;
 }
 .imagem_01 img {
-  width: 33px;
-  height: 33px;
+  width: 32px;
+  height: 32px;
   border-radius: 8px;
+  position: absolute;
+  margin-top: 7px;
 }
 .imagem_02 {
   display: flex;
@@ -46,7 +49,7 @@
   color: #666666;
 }
 .imagem_02 {
-  margin-left: 52.5rem;
+  margin-left: 52rem;
   margin-top: 6px;
 }
 .inputs input {
