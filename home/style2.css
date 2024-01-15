@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue&family=Inter+Tight&family=Inter:wght@300;400&family=Newsreader:opsz,wght@6..72,500&family=Raleway&family=Roboto:wght@300;400&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  width: 40vh;
+  height: 550vh;
+  background: var(--GrayScale-Background, #f8f8f8);
+  border: 2px solid black;
+}
+.topo_01 {
+  display: flex;
+  width: 40vh;
+  height: 4vh;
+  padding-top: 1vh;
+}
+.topo_01 p {
+  color: var(--GrayScale-Title-Active, #222);
+  font-family: "Epilogue", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  padding-left: 2vh;
+  padding-right: 25vh;
+}
+.topo_01 .imagem_1a {
+  width: 2vh;
+  height: 1.5vh;
+  padding-top: 1vh;
+  padding-right: 4px;
+}
+.topo_01 .imagem_1b {
+  width: 2vh;
+  height: 1.5vh;
+  padding-top: 1vh;
+  padding-right: 4px;
+}
+.topo_01 .imagem_1c {
+  width: 2vh;
+  height: 1.5vh;
+  padding-top: 1vh;
+}
