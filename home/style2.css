@@ -6,11 +6,10 @@ body {
   width: 176vh;
   height: 402vh;
   background: var(--GrayScale-Background, #f8f8f8);
-  border: 2px solid black;
 }
 #container {
   width: 176vh;
-  height: 24vh;
+  height: 22vh;
   flex-shrink: 0;
   background: #fff;
   box-shadow: 0px 10px 30px 0px rgba(141, 114, 32, 0.05);
@@ -31,6 +30,7 @@ body {
   letter-spacing: -0.364px;
   color: var(--primary, #c92071);
   padding-left: 34px;
+  text-decoration: none;
 }
 .barra_superior p {
   width: 15px;
@@ -50,7 +50,7 @@ body {
   text-align: center;
   position: absolute;
   margin-top: -0.5rem;
-  margin-left: 87.5rem;
+  margin-left: 88rem;
 }
 .imagem_01 img {
   width: 32px;
@@ -161,4 +161,42 @@ body {
   letter-spacing: 0.75px;
   margin-right: 1.5rem;
   text-decoration: none;
+}
+.text_03 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+.text_03 p {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.75px;
+  color: var(--dark-gray-2, #474747);
+}
+.text_03 p span {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+}
+.text_03 select {
+  width: 332px;
+  height: 60px;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+  color: var(--dark-gray-2, #474747);
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 5px;
 }
