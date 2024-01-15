@@ -3,77 +3,115 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="/home/style2.css" />
+    <title>Digital Store</title>
+    <link rel="stylesheet" href="style2.css" />
   </head>
   <body>
     <header>
-      <section class="barra_inicial">
-        <div class="topo_01">
-          <p>9:40</p>
-          <img
-            class="imagem_1a"
-            src="/home/assets/Mobile Signal.png"
-            alt="desenho de um sinal de celular"
-          />
-          <img
-            class="imagem_1b"
-            src="/home/assets/Wifi.png"
-            alt="desenho de sinal de wifi"
-          />
-          <img
-            class="imagem_1c"
-            src="/home/assets/Battery.png"
-            alt="desenho de uma bateria"
-          />
-        </div>
-        <div class="topo_02">
-          <a href="#"
-            ><img
-              class="imagem_2a"
-              src="/home/assets/Menu.png"
-              alt="imagem de tres traços"
-          /></a>
-          <img
-            class="imagem_2b"
-            src="/home/assets/logo_01.png"
-            alt="logo digital store"
-          />
-          <h2>Digital Store</h2>
-          <a href="#"
-            ><img
-              class="imagem_2c"
-              src="/home/assets/Search.png"
-              alt="desenho de uma lupa"
-          /></a>
-          <a href="#"
-            ><img
-              class="imagem_2d"
-              src="/home/assets/carrinho.png"
-              alt="desenho de um carrinho de compras"
-          /></a>
+      <section id="container">
+        <section class="barra_superior">
+          <div class="imagem_01">
+            <img src="/home/assets/logo_01.png" />
+            <a class="text" href="#">Digital Store</a>
+          </div>
+          <div class="imagem_02">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="21"
+              height="21"
+              viewBox="0 0 21 21"
+              fill="none"
+            >
+              <circle
+                cx="9.76663"
+                cy="9.76663"
+                r="8.98856"
+                stroke="#666666"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M16.0183 16.4852L19.5423 20.0001"
+                stroke="#666666"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="inputs">
+            <input placeholder="Tênis" />
+          </div>
+          <div>
+            <a class="text_02" href="#">Cadastre-se</a>
+          </div>
+          <div class="botao">
+            <button><a href="#">Entrar</a></button><br />
+          </div>
+          <div class="carrinho">
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="21"
+                viewBox="0 0 20 21"
+                fill="none"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M5.42233 17.8203C5.84433 17.8203 6.18733 18.1633 6.18733 18.5853C6.18733 19.0073 5.84433 19.3493 5.42233 19.3493C5.00033 19.3493 4.65833 19.0073 4.65833 18.5853C4.65833 18.1633 5.00033 17.8203 5.42233 17.8203Z"
+                  stroke="#C92071"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M16.6747 17.8203C17.0967 17.8203 17.4397 18.1633 17.4397 18.5853C17.4397 19.0073 17.0967 19.3493 16.6747 19.3493C16.2527 19.3493 15.9097 19.0073 15.9097 18.5853C15.9097 18.1633 16.2527 17.8203 16.6747 17.8203Z"
+                  stroke="#C92071"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M0.749878 1.25L2.82988 1.61L3.79288 13.083C3.87088 14.018 4.65188 14.736 5.58988 14.736H16.5019C17.3979 14.736 18.1579 14.078 18.2869 13.19L19.2359 6.632C19.3529 5.823 18.7259 5.099 17.9089 5.099H3.16388"
+                  stroke="#C92071"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M12.1254 8.79504H14.8984"
+                  stroke="#C92071"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </div>
           <p>2</p>
-        </div>
+        </section>
+        <section>
+          <div class="barra_inferior">
+            <div>
+              <a href="#">Home</a>
+            </div>
+            <div>
+              <a class="home" href="#">Produtos</a>
+            </div>
+            <div>
+              <a href="#">Categorias</a>
+            </div>
+            <div>
+              <a href="#">Meus pedidos</a>
+            </div>
+          </div>
+        </section>
       </section>
     </header>
-    <main>
-      <section class="meio">
-        <div class="caixa_01">
-          <img src="/home/assets/tenis_01.png" alt="imagem de um tenis" />
-        </div>
-        <div class="text_meio">
-          <h4>Melhores ofertas personalizadas</h4>
-          <h1>Queima de estoque Nike</h1>
-          <img class="imagem_3a" src="" alt="desenho de fogo" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-            doloribus nemo fuga, cum deserunt dolore hic.
-          </p>
-          <a href="#"><button>Ver ofertas</button></a>
-          <img class="imagem_3b" src="" alt="desenho de quatro pontinhos" />
-        </div>
-      </section>
-    </main>
-    <footer></footer>
   </body>
 </html>
