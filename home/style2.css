@@ -114,7 +114,6 @@ body {
   border: 0;
   border-radius: 8px;
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Inter;
   font-size: 14px;
   font-style: normal;
@@ -141,7 +140,6 @@ body {
 .barra_inferior .home {
   color: var(--primary, #c92071);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
@@ -152,7 +150,6 @@ body {
 }
 .barra_inferior a {
   color: var(--dark-gray-2, #474747);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
@@ -187,8 +184,8 @@ body {
   letter-spacing: 0.75px;
 }
 .text_03 select {
-  width: 332px;
-  height: 60px;
+  width: 290px;
+  height: 48px;
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
@@ -201,15 +198,16 @@ body {
   padding-right: 5px;
 }
 .lado_a1 {
-  width: 37vh;
-  height: 88vh;
+  width: 29vh;
+  height: 72vh;
   border-radius: 4px;
   background: #fff;
   display: inline-flex;
   padding: 30px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 20px;
+  gap: 10px;
+  margin-left: 90px;
 }
 .lado_a1 h3 {
   color: var(--dark-gray-2, #474747);
@@ -219,7 +217,10 @@ body {
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.75px;
-  padding-left: 30px;
+  margin-bottom: -3px;
+}
+.lado_a1 hr {
+  width: 260px;
   margin-bottom: -10px;
 }
 .lado_a1 h4 {
@@ -230,9 +231,8 @@ body {
   font-weight: 700;
   line-height: 22px;
   letter-spacing: 0.75px;
-  padding-left: 30px;
-  margin-top: -5px;
-  margin-bottom: 20px;
+  padding-top: -30px;
+  margin-bottom: -3px;
 }
 .lado_a1 p {
   color: var(--dark-gray-2, #474747);
@@ -242,6 +242,34 @@ body {
   font-weight: 500;
   line-height: 22px;
   letter-spacing: 0.25px;
-  padding-left: 30px;
+  padding-left: 22px;
   margin-top: -20px;
+}
+.marka {
+  margin-bottom: -30px;
+}
+.categoria {
+  margin-bottom: -30px;
+}
+.genero {
+  margin-bottom: -30px;
+}
+.estado {
+  margin-bottom: -30px;
+}
+.marka img {
+  width: 15px;
+  height: 15px;
+}
+.categoria img {
+  width: 15px;
+  height: 15px;
+}
+.genero img {
+  width: 15px;
+  height: 15px;
+}
+.estado img {
+  width: 15px;
+  height: 15px;
 }
