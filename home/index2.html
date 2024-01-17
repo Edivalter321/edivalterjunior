@@ -3,77 +3,335 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="/home/style2.css" />
+    <title>Digital Store</title>
+    <link rel="stylesheet" href="style2.css" />
   </head>
   <body>
     <header>
-      <section class="barra_inicial">
-        <div class="topo_01">
-          <p>9:40</p>
-          <img
-            class="imagem_1a"
-            src="/home/assets/Mobile Signal.png"
-            alt="desenho de um sinal de celular"
-          />
-          <img
-            class="imagem_1b"
-            src="/home/assets/Wifi.png"
-            alt="desenho de sinal de wifi"
-          />
-          <img
-            class="imagem_1c"
-            src="/home/assets/Battery.png"
-            alt="desenho de uma bateria"
-          />
-        </div>
-        <div class="topo_02">
-          <a href="#"
-            ><img
-              class="imagem_2a"
-              src="/home/assets/Menu.png"
-              alt="imagem de tres traços"
-          /></a>
-          <img
-            class="imagem_2b"
-            src="/home/assets/logo_01.png"
-            alt="logo digital store"
-          />
-          <h2>Digital Store</h2>
-          <a href="#"
-            ><img
-              class="imagem_2c"
-              src="/home/assets/Search.png"
-              alt="desenho de uma lupa"
-          /></a>
-          <a href="#"
-            ><img
-              class="imagem_2d"
-              src="/home/assets/carrinho.png"
-              alt="desenho de um carrinho de compras"
-          /></a>
+      <section id="container">
+        <section class="barra_superior">
+          <div class="imagem_01">
+            <img src="/home/assets/logo_01.png" />
+            <a class="text" href="#">Digital Store</a>
+          </div>
+          <div class="imagem_02">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="21"
+              height="21"
+              viewBox="0 0 21 21"
+              fill="none"
+            >
+              <circle
+                cx="9.76663"
+                cy="9.76663"
+                r="8.98856"
+                stroke="#666666"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M16.0183 16.4852L19.5423 20.0001"
+                stroke="#666666"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="inputs">
+            <input placeholder="Tênis" />
+          </div>
+          <div>
+            <a class="text_02" href="#">Cadastre-se</a>
+          </div>
+          <div class="botao">
+            <button><a href="#">Entrar</a></button><br />
+          </div>
+          <div class="carrinho">
+            <a href="#">
+              <img
+                src="/home/assets/carrinho.png"
+                alt="desenho de carrinho de compras"
+              />
+            </a>
+          </div>
           <p>2</p>
-        </div>
+        </section>
+        <section>
+          <div class="barra_inferior">
+            <div>
+              <a href="#">Home</a>
+            </div>
+            <div>
+              <a class="home" href="#">Produtos</a>
+            </div>
+            <div>
+              <a href="#">Categorias</a>
+            </div>
+            <div>
+              <a href="#">Meus pedidos</a>
+            </div>
+          </div>
+        </section>
       </section>
     </header>
     <main>
-      <section class="meio">
-        <div class="caixa_01">
-          <img src="/home/assets/tenis_01.png" alt="imagem de um tenis" />
+      <section>
+        <div class="text_03">
+          <p><span>Resultados para "Tênis" - </span>389 produtos</p>
+          <select name="produtos" id="produtos">
+            <option>Ordenar por: mais relevantes</option>
+            <option>Tênis feminino</option>
+            <option>Tênis masculino</option>
+          </select>
         </div>
-        <div class="text_meio">
-          <h4>Melhores ofertas personalizadas</h4>
-          <h1>Queima de estoque Nike</h1>
-          <img class="imagem_3a" src="" alt="desenho de fogo" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-            doloribus nemo fuga, cum deserunt dolore hic.
-          </p>
-          <a href="#"><button>Ver ofertas</button></a>
-          <img class="imagem_3b" src="" alt="desenho de quatro pontinhos" />
+        <div class="barra_opcoes">
+          <div class="lado_a1">
+            <h3>Filtrar por:</h3>
+            <hr />
+            <h4>Marka</h4>
+            <div class="marka">
+              <img src="/home/assets/Checkbox.png" />
+              <p>Adidas</p>
+              <img src="/home/assets/Checkbox (1).png" />
+              <p>Calenciaga</p>
+              <img src="/home/assets/Checkbox.png" />
+              <p>K-Swiss</p>
+              <img src="/home/assets/Checkbox (1).png" />
+              <p>Nike</p>
+              <img src="/home/assets/Checkbox (1).png" />
+              <p>Puma</p>
+            </div>
+            <h4>Categoria</h4>
+            <div class="categoria">
+              <img src="/home/assets/Checkbox.png" />
+              <p>Esporte e lazer</p>
+              <img src="/home/assets/Checkbox (1).png" />
+              <p>Casual</p>
+              <img src="/home/assets/Checkbox (1).png" />
+              <p>Utilitários</p>
+              <img src="/home/assets/Checkbox (1).png" />
+              <p>Corrida</p>
+            </div>
+            <h4>Gênero</h4>
+            <div class="genero">
+              <img src="/home/assets/Checkbox.png" />
+              <p>Masculino</p>
+              <img src="/home/assets/Checkbox.png" />
+              <p>Feminino</p>
+              <img src="/home/assets/Checkbox (1).png" />
+              <p>Unisex</p>
+            </div>
+            <h4>Estado</h4>
+            <div class="estado">
+              <img src="/home/assets/radio (1).png" />
+              <p>Novo</p>
+              <img src="/home/assets/radio.png" />
+              <p>Usado</p>
+            </div>
+          </div>
+          <div class="lado_b1">
+            <section class="caixas_img">
+              <div class="caixa_a">
+                <button>30% OFF</button>
+                <img src="/home/assets/tenis.png" alt="imagem de um tenis" />
+              </div>
+              <div class="caixa_a">
+                <button>30% OFF</button>
+                <img src="/home/assets/tenis.png" alt="imagem de um tenis" />
+              </div>
+              <div class="caixa_a">
+                <img src="/home/assets/tenis.png" alt="imagem de um tenis" />
+              </div>
+            </section>
+            <section class="caixa_text">
+              <div class="text_a">
+                <p>Tênis</p>
+                <h4>K-Swiss V8 - Masculino</h4>
+                <h3><span>$200</span>$100</h3>
+              </div>
+              <div class="text_a">
+                <p>Tênis</p>
+                <h4>K-Swiss V8 - Masculino</h4>
+                <h3><span>$200</span>$100</h3>
+              </div>
+              <div class="text_a">
+                <p>Tênis</p>
+                <h4>K-Swiss V8 - Masculino</h4>
+                <h3><span>$200</span>$100</h3>
+              </div>
+            </section>
+            <section class="caixas_img">
+              <div class="caixa_a">
+                <img src="/home/assets/tenis.png" alt="imagem de um tenis" />
+              </div>
+              <div class="caixa_a">
+                <img src="/home/assets/tenis.png" alt="imagem de um tenis" />
+              </div>
+              <div class="caixa_a">
+                <img src="/home/assets/tenis.png" alt="imagem de um tenis" />
+              </div>
+            </section>
+            <section class="caixa_text">
+              <div class="text_a">
+                <p>Tênis</p>
+                <h4>K-Swiss V8 - Masculino</h4>
+                <h3><span>$200</span>$100</h3>
+              </div>
+              <div class="text_a">
+                <p>Tênis</p>
+                <h4>K-Swiss V8 - Masculino</h4>
+                <h3><span>$200</span>$100</h3>
+              </div>
+              <div class="text_a">
+                <p>Tênis</p>
+                <h4>K-Swiss V8 - Masculino</h4>
+                <h3><span>$200</span>$100</h3>
+              </div>
+            </section>
+            <section class="caixas_img">
+              <div class="caixa_a">
+                <img src="/home/assets/tenis.png" alt="imagem de um tenis" />
+              </div>
+              <div class="caixa_a">
+                <img src="/home/assets/tenis.png" alt="imagem de um tenis" />
+              </div>
+              <div class="caixa_a">
+                <img src="/home/assets/tenis.png" alt="imagem de um tenis" />
+              </div>
+            </section>
+            <section class="caixa_text">
+              <div class="text_a">
+                <p>Tênis</p>
+                <h4>K-Swiss V8 - Masculino</h4>
+                <h3><span>$200</span>$100</h3>
+              </div>
+              <div class="text_a">
+                <p>Tênis</p>
+                <h4>K-Swiss V8 - Masculino</h4>
+                <h3><span>$200</span>$100</h3>
+              </div>
+              <div class="text_a">
+                <p>Tênis</p>
+                <h4>K-Swiss V8 - Masculino</h4>
+                <h3><span>$200</span>$100</h3>
+              </div>
+            </section>
+            <section class="caixas_img">
+              <div class="caixa_a">
+                <img src="/home/assets/tenis.png" alt="imagem de um tenis" />
+              </div>
+              <div class="caixa_a">
+                <img src="/home/assets/tenis.png" alt="imagem de um tenis" />
+              </div>
+              <div class="caixa_a">
+                <img src="/home/assets/tenis.png" alt="imagem de um tenis" />
+              </div>
+            </section>
+            <section class="caixa_text">
+              <div class="text_a">
+                <p>Tênis</p>
+                <h4>K-Swiss V8 - Masculino</h4>
+                <h3><span>$200</span>$100</h3>
+              </div>
+              <div class="text_a">
+                <p>Tênis</p>
+                <h4>K-Swiss V8 - Masculino</h4>
+                <h3><span>$200</span>$100</h3>
+              </div>
+              <div class="text_a">
+                <p>Tênis</p>
+                <h4>K-Swiss V8 - Masculino</h4>
+                <h3><span>$200</span>$100</h3>
+              </div>
+            </section>
+            <section class="caixas_img">
+              <div class="caixa_a">
+                <img src="/home/assets/tenis.png" alt="imagem de um tenis" />
+              </div>
+              <div class="caixa_a">
+                <img src="/home/assets/tenis.png" alt="imagem de um tenis" />
+              </div>
+              <div class="caixa_a">
+                <img src="/home/assets/tenis.png" alt="imagem de um tenis" />
+              </div>
+            </section>
+            <section class="caixa_text">
+              <div class="text_a">
+                <p>Tênis</p>
+                <h4>K-Swiss V8 - Masculino</h4>
+                <h3><span>$200</span>$100</h3>
+              </div>
+              <div class="text_a">
+                <p>Tênis</p>
+                <h4>K-Swiss V8 - Masculino</h4>
+                <h3><span>$200</span>$100</h3>
+              </div>
+              <div class="text_a">
+                <p>Tênis</p>
+                <h4>K-Swiss V8 - Masculino</h4>
+                <h3><span>$200</span>$100</h3>
+              </div>
+            </section>
+          </div>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <section class="rodape">
+        <section class="icons">
+          <a class="face" href="https://pt-br.facebook.com/"
+            ><img src="/home/assets/facebook.png" alt="icon facebook"
+          /></a>
+          <a class="inst" href="https://www.instagram.com/"
+            ><img src="/home/assets/instagram.png" alt="icon instagram"
+          /></a>
+          <a class="twi" href="https://twitter.com/"
+            ><img src="/home/assets/twiter.png" alt="icon twiter"
+          /></a>
+        </section>
+        <div class="final_001">
+          <div class="final_a">
+            <img src="/home/assets/logo_02.png" />
+            <h4>Digital Store</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
+              dicta error optio harum. Modi, harum excepturi?
+            </p>
+          </div>
+          <div class="final_b">
+            <h6>Informação</h6>
+            <a href="#">Sobre Drip Store</a>
+            <a href="#">Segurança</a>
+            <a href="#">Wishlist</a>
+            <a href="#">Blog</a>
+            <a href="#">Trabalhe conosco</a>
+            <a href="#">Meus pedidos</a>
+          </div>
+          <div class="final_c">
+            <h6>Categorias</h6>
+            <a href="#">Camisas</a>
+            <a href="#">Calças</a>
+            <a href="#">Bonés</a>
+            <a href="#">Headphones</a>
+            <a href="#">Tênis</a>
+          </div>
+          <div class="final_d">
+            <h6>Contato</h6>
+            <p>
+              Av. Santos Dumont, 1510 - 1º andar - Aldeota, Fortaleza - CE,
+              60150-161
+            </p>
+            <p>(85) 3051-3411</p>
+          </div>
+        </div>
+        <div class="text_final">
+          <hr />
+          <p>© 2024 Digital College</p>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
