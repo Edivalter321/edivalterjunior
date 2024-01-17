@@ -165,6 +165,7 @@ body {
   padding-top: 20px;
   padding-left: 90px;
   padding-right: 90px;
+  background: #f9f8fe;
 }
 .text_03 p {
   font-family: Inter;
@@ -365,12 +366,14 @@ body {
   text-decoration: line-through;
   padding-right: 5px;
 }
-footer {
+.rodape {
   width: 176vh;
-  height: 42vh;
+  height: 43vh;
+  background: var(--dark-gray, #1f1f1f);
 }
 .icons {
   position: absolute;
+  padding-left: 20px;
 }
 .face img {
   width: 13px;
@@ -395,15 +398,17 @@ footer {
   display: flex;
   justify-content: flex-start;
   padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
 }
 .final_a {
   width: 307px;
   padding-left: 75px;
-  padding-right: 190px;
+  padding-right: 220px;
 }
 .final_a img {
   position: absolute;
-  padding-top: 49px;
+  padding-top: 51px;
 }
 .final_a h4 {
   color: var(--white, #fff);
@@ -414,7 +419,7 @@ footer {
   line-height: normal;
   letter-spacing: -0.364px;
   padding-left: 35px;
-  padding-bottom: 39px;
+  padding-bottom: 30px;
 }
 .final_a p {
   width: 307px;
@@ -424,12 +429,14 @@ footer {
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
+  margin-top: -50px;
 }
 .final_b {
   width: 126px;
   display: flex;
   flex-direction: column;
-  padding-right: 160px;
+  padding-right: 200px;
+  text-decoration: none;
 }
 .final_b h6 {
   color: var(--white, #fff);
@@ -449,12 +456,13 @@ footer {
   font-weight: 400;
   line-height: 28px;
   margin-bottom: 8px;
+  text-decoration: none;
 }
 .final_c {
   width: 126px;
   display: flex;
   flex-direction: column;
-  padding-right: 189px;
+  padding-right: 220px;
 }
 .final_c h6 {
   color: var(--white, #fff);
@@ -474,6 +482,7 @@ footer {
   font-weight: 400;
   line-height: 28px;
   margin-bottom: 8px;
+  text-decoration: none;
 }
 .final_d {
   width: 180px;
@@ -497,30 +506,20 @@ footer {
   line-height: 28px;
   margin-bottom: 8px;
 }
-.barra_final {
-  background: var(--dark-gray, #1f1f1f);
-  padding-left: 70px;
-  padding-right: 70px;
-  height: 50px;
-  display: block;
-  justify-content: center;
-}
-.barra_final hr {
-  height: 1px;
+.text_final hr {
   fill: var(--white, #fff);
   opacity: 0.3;
+  margin-left: 90px;
+  margin-right: 90px;
 }
-.barra_final p {
-  width: 307px;
+.text_final p {
+  text-align: center;
+  padding-left: 90px;
+  padding-right: 90px;
   color: var(--white, #fff);
   font-family: Inter;
-  font-size: 14px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 400;
-  line-height: 5px;
-}
-.text_final {
-  text-align: center;
-  padding-left: 32rem;
-  padding-top: 15px;
+  line-height: 24px;
 }
