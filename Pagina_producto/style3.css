@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  width: 176vh;
+  height: 260vh;
+}
+.container {
+  width: 176vh;
+  height: 23vh;
+  background: #fff;
+  box-shadow: 0px 10px 30px 0px rgba(141, 114, 32, 0.05);
+}
+.barra_topo {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 42px;
+  padding-left: 90px;
+  padding-right: 109px;
+}
+.logo img {
+  width: 33px;
+  height: 33px;
+  margin-top: 8.5px;
+}
+.text_logo h1 {
+  color: var(--primary, #c92071);
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  font-weight: bolder;
+  line-height: normal;
+  letter-spacing: -0.364px;
+  margin-top: 5px;
+  margin-left: -50px;
+  margin-right: 4rem;
+}
+.inputs input {
+  width: 559px;
+  height: 50px;
+  border-radius: 8px;
+  background: var(--dark-gray-2, #474747);
+  opacity: 0.04;
+}
+.inputs input::placeholder {
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Inter", sans-serif;
+  color: var(--dark-gray, #1f1f1f);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.75px;
+  margin-left: 20px;
+}
+.search img {
+  width: 28px;
+  height: 29px;
+  margin-left: -120px;
+  margin-top: 12px;
+}
+.text {
+  margin-top: 15px;
+}
+.text a {
+  color: var(--dark-gray-2, #474747);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.75px;
+  text-decoration-line: underline;
+}
+.botao a button {
+  width: 114px;
+  height: 40px;
+  color: var(--light-gray-3, #f5f5f5);
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.75px;
+  background-color: #c92071;
+  border: 0;
+  border-radius: 8px;
+  margin-top: 7px;
+}
+.carrinho {
+  margin-top: 16px;
+}
+.number p {
+  position: absolute;
+  color: var(--white, #fff);
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+  width: 17px;
+  height: 17px;
+  background-color: #c92071;
+  border-radius: 25px;
+  text-align: center;
+  margin-left: -4.5rem;
+}
