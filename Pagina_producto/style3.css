@@ -33,31 +33,42 @@ body {
   line-height: normal;
   letter-spacing: -0.364px;
   margin-top: 5px;
-  margin-left: -50px;
+  margin-left: -35px;
   margin-right: 4rem;
 }
 .inputs input {
   width: 559px;
   height: 50px;
+  flex-shrink: 0;
+  border: 0;
   border-radius: 8px;
-  background: var(--dark-gray-2, #474747);
-  opacity: 0.04;
-}
-.inputs input::placeholder {
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: "Inter", sans-serif;
-  color: var(--dark-gray, #1f1f1f);
+  background: var(--dark-gray-2, #f5f1f1);
+  padding-left: 1rem;
+  border: 0;
+  font-family: Inter;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0.75px;
-  margin-left: 20px;
+  color: var(--dark-gray, #1f1f1f);
+}
+.inputs input::placeholder {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.75px;
+  color: var(--dark-gray, #1f1f1f);
+  padding-left: -1rem;
+  border: 0;
 }
 .search img {
+  position: relative;
   width: 28px;
   height: 29px;
-  margin-left: -120px;
+  margin-left: -95px;
   margin-top: 12px;
 }
 .text {
@@ -72,9 +83,10 @@ body {
   line-height: 28px;
   letter-spacing: 0.75px;
   text-decoration-line: underline;
+  margin-right: 2rem;
 }
 .botao a button {
-  width: 114px;
+  width: 100px;
   height: 40px;
   color: var(--light-gray-3, #f5f5f5);
   text-align: center;
@@ -88,6 +100,7 @@ body {
   border: 0;
   border-radius: 8px;
   margin-top: 7px;
+  margin-right: 4rem;
 }
 .carrinho {
   margin-top: 16px;
@@ -105,5 +118,59 @@ body {
   background-color: #c92071;
   border-radius: 25px;
   text-align: center;
-  margin-left: -4.5rem;
+  margin-left: -3rem;
+}
+.barra_inferior {
+  display: flex;
+  justify-items: flex-start;
+  padding-top: 3rem;
+  padding-left: 90px;
+}
+.barra_inferior a {
+  text-decoration: none;
+  color: var(--dark-gray-2, #474747);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.75px;
+}
+.barra_inferior .home {
+  padding-right: 33px;
+}
+.barra_inferior .produtos {
+  color: var(--primary, #c92071);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+  text-decoration: underline 3px;
+  padding-right: 33px;
+}
+.barra_inferior .categorias {
+  padding-right: 33px;
+}
+.main {
+  width: 176vh;
+  height: 260vh;
+  background: #f9f8fe;
+}
+.main .menu {
+  padding-top: 20px;
+  padding-left: 90px;
+}
+.main .menu a {
+  text-decoration: none;
+  color: var(--dark-gray-2, #474747);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0.25px;
+  padding-right: 8px;
 }
