@@ -174,3 +174,25 @@ body {
   letter-spacing: 0.25px;
   padding-right: 8px;
 }
+.caixa_topo {
+  display: flex;
+  padding-left: 90px;
+  padding-right: 109px;
+  padding-top: 40px;
+}
+.caixa_a {
+  display: flex;
+  justify-content: space-between;
+  width: 700.731px;
+  height: 571px;
+  border-radius: 4px;
+  background: #e2e3ff;
+}
+.caixa_a span {
+  padding-top: 260px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.caixa_a picture img {
+  padding-top: 160px;
+}
