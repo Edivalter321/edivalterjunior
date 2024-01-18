@@ -3,13 +3,13 @@
 body {
   padding: 0;
   margin: 0;
-  width: 176vh;
-  height: 402h;
+  width: 79em;
+  height: 204em;
   background: var(--GrayScale-Background, #f8f8f8);
 }
 #container {
-  width: 176vh;
-  height: 22vh;
+  width: 79em;
+  height: 8em;
   flex-shrink: 0;
   background: #fff;
   box-shadow: 0px 10px 30px 0px rgba(141, 114, 32, 0.05);
@@ -17,9 +17,9 @@ body {
 .barra_superior {
   display: flex;
   justify-content: space-between;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 24px;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  padding-top: 1.5em;
 }
 .barra_superior .imagem_01 .text {
   font-family: Inter;
@@ -29,7 +29,7 @@ body {
   line-height: normal;
   letter-spacing: -0.364px;
   color: var(--primary, #c92071);
-  padding-left: 34px;
+  padding-left: 2em;
   text-decoration: none;
 }
 .barra_superior p {
@@ -134,24 +134,24 @@ body {
 .barra_inferior {
   display: flex;
   justify-content: flex-start;
-  padding-top: 3.5rem;
-  padding-left: 90px;
+  padding-top: 25px;
+  padding-left: 40px;
 }
 .barra_inferior .home {
   color: var(--primary, #c92071);
   text-align: center;
   font-family: Inter;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.75px;
-  text-decoration: underline 3px;
+  text-decoration: underline 2px;
 }
 .barra_inferior a {
   color: var(--dark-gray-2, #474747);
   font-family: Inter;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
@@ -162,14 +162,14 @@ body {
 .text_03 {
   display: flex;
   justify-content: space-between;
-  padding-top: 20px;
-  padding-left: 90px;
-  padding-right: 90px;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
   background: #f9f8fe;
 }
 .text_03 p {
   font-family: Inter;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
@@ -178,33 +178,34 @@ body {
 }
 .text_03 p span {
   font-family: Inter;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.75px;
 }
 .text_03 select {
-  width: 290px;
-  height: 48px;
+  width: 250px;
+  height: 32px;
   font-family: Inter;
-  font-size: 16px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.75px;
   color: var(--dark-gray-2, #474747);
   border-radius: 5px;
-  padding-left: 15px;
+  padding-left: 10px;
   padding-right: 5px;
+  margin-top: 15px;
 }
 .barra_opcoes {
   display: flex;
   background: #f9f8fe;
 }
 .lado_a1 {
-  width: 29vh;
-  height: 72vh;
+  width: 12em;
+  height: 35em;
   border-radius: 4px;
   background: #fff;
   display: inline-flex;
@@ -212,7 +213,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
   gap: 10px;
-  margin-left: 90px;
+  margin-left: 2.5em;
 }
 .lado_a1 h3 {
   color: var(--dark-gray-2, #474747);
@@ -222,11 +223,11 @@ body {
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.75px;
-  margin-bottom: -3px;
+  margin-top: -0.5em;
 }
 .lado_a1 hr {
-  width: 260px;
-  margin-bottom: -10px;
+  width: 12em;
+  margin-top: -1em;
 }
 .lado_a1 h4 {
   color: var(--dark-gray-2, #474747);
@@ -236,8 +237,8 @@ body {
   font-weight: 700;
   line-height: 22px;
   letter-spacing: 0.75px;
-  padding-top: -30px;
-  margin-bottom: -3px;
+  margin-top: -0.5em;
+  margin-bottom: -0.5em;
 }
 .lado_a1 p {
   color: var(--dark-gray-2, #474747);
