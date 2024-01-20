@@ -250,7 +250,6 @@
   padding-top: 70vh;
   padding-left: 3vh;
 }
-/* Parei aqui as correções */
 .colecao {
   width: 176vh;
   height: 300vh;
@@ -270,20 +269,20 @@
 }
 .colecao_01 {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-left: 8vh;
   margin-right: 8vh;
 }
 .caixa_01 {
-  width: 48vh;
-  height: 28vh;
+  width: 50vh;
+  height: 38vh;
   flex-shrink: 0;
   border-radius: 8px;
   background: #d8e3f2;
 }
 .caixa_01 button {
-  margin-left: 2vh;
-  margin-top: 2.5vh;
+  margin-left: 3vh;
+  margin-top: 4vh;
   color: var(--dark-gray-2, #474747);
   font-family: Inter;
   font-size: 10px;
@@ -300,53 +299,50 @@
   color: var(--primary, #c92071);
   text-align: center;
   font-family: Inter;
-  font-size: 12px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.75px;
-  width: 153px;
-  height: 48px;
+  width: 15vh;
+  height: 6vh;
   background-color: #f5f5f5;
   border: 0;
   border-radius: 8px;
-  margin-left: 30px;
-  margin-top: 20px;
   position: absolute;
 }
 .caixa_01 h3 {
   color: var(--dark-gray, #1f1f1f);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Inter;
-  font-size: 32px;
+  font-size: 26px;
   font-style: normal;
   font-weight: 700;
   line-height: 36px;
   letter-spacing: 1px;
-  width: 172px;
-  margin-left: 30px;
-  margin-top: 20px;
+  margin-left: 3vh;
+  margin-top: 3vh;
+  width: 24vh;
 }
 .caixa_01 img {
+  width: 35vh;
+  height: 30vh;
   position: absolute;
-  margin-left: 163px;
-  margin-top: -155px;
+  margin-left: 15vh;
+  margin-top: -15vh;
 }
-
 .caixa_02 {
-  width: 405px;
-  height: 251px;
+  width: 50vh;
+  height: 38vh;
   flex-shrink: 0;
   border-radius: 8px;
   background: #d8e3f2;
 }
 .caixa_02 button {
-  margin-left: 30px;
-  margin-top: 39px;
+  margin-left: 3vh;
+  margin-top: 4vh;
   color: var(--dark-gray-2, #474747);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Inter;
-  font-size: 14px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 700;
   line-height: 22px;
@@ -354,59 +350,58 @@
   border: 0;
   border-radius: 29px;
   background: #e7ff86;
-  padding: 5px 20px;
+  padding: 0.2vh 2vh;
 }
 .caixa_02 h3 {
   color: var(--dark-gray, #1f1f1f);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Inter;
-  font-size: 32px;
+  font-size: 26px;
   font-style: normal;
   font-weight: 700;
   line-height: 36px;
   letter-spacing: 1px;
-  width: 172px;
-  margin-left: 30px;
-  margin-top: 20px;
+  width: 21vh;
+  margin-left: 3vh;
+  margin-top: 4vh;
 }
 .botao_1b button {
   color: var(--primary, #c92071);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Inter;
-  font-size: 16px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.75px;
-  width: 153px;
-  height: 48px;
+  width: 15vh;
+  height: 6vh;
   background-color: #f5f5f5;
   border: 0;
   border-radius: 8px;
-  margin-left: 30px;
-  margin-top: 20px;
+  margin-left: 3vh;
+  margin-top: 4vh;
   position: absolute;
 }
 .caixa_02 img {
+  width: 35vh;
+  height: 30vh;
   position: absolute;
-  margin-left: 163px;
-  margin-top: -164px;
+  margin-left: 15vh;
+  margin-top: -16vh;
 }
 .caixa_03 {
-  width: 405px;
-  height: 251px;
+  width: 50vh;
+  height: 38vh;
   flex-shrink: 0;
   border-radius: 8px;
   background: #d8e3f2;
 }
 .caixa_03 button {
-  margin-left: 30px;
-  margin-top: 39px;
+  margin-left: 3vh;
+  margin-top: 4vh;
   color: var(--dark-gray-2, #474747);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Inter;
-  font-size: 14px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 700;
   line-height: 22px;
@@ -414,325 +409,347 @@
   border: 0;
   border-radius: 29px;
   background: #e7ff86;
-  padding: 5px 20px;
+  padding: 0.2vh 2vh;
 }
 .caixa_03 h3 {
   color: var(--dark-gray, #1f1f1f);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Inter;
-  font-size: 32px;
+  font-size: 26px;
   font-style: normal;
   font-weight: 700;
   line-height: 36px;
   letter-spacing: 1px;
-  width: 184px;
-  margin-left: 30px;
-  margin-top: 20px;
+  width: 24vh;
+  margin-left: 3vh;
+  margin-top: 4vh;
 }
 .botao_1c button {
   color: var(--primary, #c92071);
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Inter;
-  font-size: 16px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.75px;
-  width: 153px;
-  height: 48px;
+  width: 15vh;
+  height: 6vh;
   background-color: #f5f5f5;
   border: 0;
   border-radius: 8px;
-  margin-left: 30px;
-  margin-top: 20px;
+  margin-left: 3vh;
+  margin-top: 4vh;
   position: absolute;
 }
 .caixa_03 img {
+  width: 30vh;
+  height: 30vh;
   position: absolute;
-  margin-left: 179px;
-  margin-top: -163px;
+  margin-left: 20vh;
+  margin-top: -16vh;
 }
 .promo_02 {
   text-align: center;
-  margin-top: 3rem;
-  margin-left: -5rem;
+  margin-left: 8vh;
+  margin-right: 8vh;
 }
 .imagens_03 {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
-  margin-left: 4rem;
+  margin-top: 4vh;
+  margin-left: 2vh;
 }
 .img_03a {
-  width: 64px;
-  height: 64px;
+  width: 6vh;
+  height: 6vh;
   flex-shrink: 0;
-  padding: 20px;
+  padding: 2vh;
   gap: 20px;
   border-radius: 150px;
   background: #fff;
   box-shadow: 0px 4px 25px 0px rgb;
-  margin-right: 68px;
+  margin-right: 7vh;
 }
 .img_03b {
-  width: 64px;
-  height: 64px;
+  width: 6vh;
+  height: 6vh;
   flex-shrink: 0;
-  padding: 20px;
+  padding: 2vh;
   gap: 20px;
   border-radius: 150px;
   background: #fff;
   box-shadow: 0px 4px 25px 0px rgb;
-  margin-right: 68px;
+  margin-right: 7vh;
 }
 .img_03c img {
-  width: 64px;
-  height: 64px;
+  width: 6vh;
+  height: 6vh;
   flex-shrink: 0;
-  padding: 20px;
+  padding: 2vh;
   gap: 20px;
   border-radius: 150px;
   background: #fff;
   box-shadow: 0px 4px 25px 0px rgb;
-  margin-right: 68px;
+  margin-right: 7vh;
 }
 .img_03d {
-  width: 64px;
-  height: 64px;
+  width: 6vh;
+  height: 6vh;
   flex-shrink: 0;
-  padding: 20px;
+  padding: 2vh;
   gap: 20px;
   border-radius: 150px;
   background: #fff;
   box-shadow: 0px 4px 25px 0px rgb;
-  margin-right: 68px;
+  margin-right: 5vh;
 }
 .img_03e {
-  width: 64px;
-  height: 64px;
+  width: 6vh;
+  height: 6vh;
   flex-shrink: 0;
-  padding: 20px;
+  padding: 2vh;
   gap: 20px;
   border-radius: 150px;
   background: #fff;
   box-shadow: 0px 4px 25px 0px rgb;
-  margin-right: 68px;
+  margin-right: 7vh;
 }
 .text_03 {
   display: flex;
-  justify-content: flex-start;
-  position: static;
-  padding-top: 12px;
+  justify-content: start;
+  padding-top: 1vh;
+}
+.text_03a a {
+  text-decoration: none;
   font-family: Inter;
-  font-size: 14px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 700;
-  line-height: 22px;
+  line-height: 20px;
   letter-spacing: 0.75px;
   color: var(--dark-gray-2, #474747);
-  text-align: center;
-  margin-left: 4px;
+  width: 6vh;
+  height: 2vh;
+  padding-left: 48vh;
+  padding-right: 9.5vh;
 }
-.text_03a {
-  width: 79px;
-  height: 22px;
-  padding-left: 331px;
-  padding-right: 110px;
+.text_03b a {
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.75px;
+  color: var(--dark-gray-2, #474747);
+  width: 6vh;
+  height: 2vh;
+  padding-right: 11.5vh;
 }
-.text_03b {
-  width: 51px;
-  height: 22px;
-  padding-right: 120px;
+.text_03c a {
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.75px;
+  color: var(--dark-gray-2, #474747);
+  width: 6vh;
+  height: 2vh;
+  padding-right: 8.5vh;
 }
-.text_03c {
-  width: 46px;
-  height: 22px;
-  padding-right: 104px;
+.text_03d a {
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.75px;
+  color: var(--dark-gray-2, #474747);
+  width: 8vh;
+  height: 2vh;
+  padding-right: 7vh;
 }
-.text_03d {
-  width: 94px;
-  height: 22px;
-  padding-right: 106px;
-}
-.text_03e {
-  width: 40px;
-  height: 22px;
+.text_03e a {
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.75px;
+  color: var(--dark-gray-2, #474747);
+  width: 6vh;
+  height: 2vh;
 }
 .text_04 {
   display: flex;
-  align-items: flex-start;
-  padding-top: 110px;
-  padding-right: 90px;
+  justify-content: start;
+  padding-top: 10vh;
 }
 .text_04 h4 {
   color: var(--dark-gray-2, #474747);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Inter;
-  font-size: 24px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 38px;
+  line-height: 28px;
   letter-spacing: 0.75px;
-  width: 210px;
-  height: 38px;
-  padding-right: 59rem;
-  margin-top: -40px;
+  width: 30vh;
+  height: 20vh;
+  padding-right: 114vh;
 }
 .text_04 a {
   color: var(--primary, #c92071);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 34px;
   letter-spacing: 0.75px;
+  padding-top: 2.5vh;
 }
 .text_04 img {
-  width: 24px;
-  height: 24px;
+  width: 3vh;
+  height: 3vh;
   flex-shrink: 0;
-  margin-top: 6px;
+  padding-top: 4vh;
 }
 .caixa_04 {
   display: flex;
-  justify-content: flex-start;
-  padding-top: 20px;
-  gap: 40px;
-  padding-left: 78px;
-  padding-right: 20px;
+  justify-content: space-around;
+  margin-top: -12vh;
+  gap: 20px;
+  padding-left: 8vh;
+  padding-right: 8vh;
 }
 .caixa_04a {
-  width: 292px;
-  height: 321px;
+  width: 36vh;
+  height: 42vh;
   flex-shrink: 0;
   border-radius: 4px;
   background: #fff;
   box-shadow: 6px 16px 30px 0px rgba(105, 98, 98, 0.05);
 }
 .caixa_04a a {
+  width: 8vh;
+  height: 3.5vh;
   color: var(--dark-gray-2, #474747);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Inter;
-  font-size: 14px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 700;
   line-height: 22px;
   letter-spacing: 0.75px;
+  text-align: center;
   border-radius: 29px;
   background: #e7ff86;
   gap: 10px;
-  padding: 5px 15px;
+  padding: 1vh 3vh;
   position: absolute;
-  margin-top: 20px;
-  margin-left: 20px;
+  margin-top: 3vh;
+  margin-left: 3vh;
+}
+.caixa_04a img {
+  width: 40vh;
+  height: 30vh;
+  padding-top: 8vh;
+  margin-left: -5vh;
 }
 .caixa_04b {
-  width: 292px;
-  height: 321px;
+  width: 36vh;
+  height: 42vh;
   flex-shrink: 0;
   border-radius: 4px;
   background: #fff;
   box-shadow: 6px 16px 30px 0px rgba(105, 98, 98, 0.05);
 }
 .caixa_04b a {
+  width: 8vh;
+  height: 3.5vh;
   color: var(--dark-gray-2, #474747);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Inter;
-  font-size: 14px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 700;
   line-height: 22px;
   letter-spacing: 0.75px;
+  text-align: center;
   border-radius: 29px;
   background: #e7ff86;
   gap: 10px;
-  padding: 5px 15px;
+  padding: 1vh 3vh;
   position: absolute;
-  margin-top: 20px;
-  margin-left: 20px;
+  margin-top: 3vh;
+  margin-left: 3vh;
+}
+.caixa_04b img {
+  width: 40vh;
+  height: 30vh;
+  padding-top: 8vh;
+  margin-left: -5vh;
 }
 .caixa_04c {
-  width: 292px;
-  height: 321px;
+  width: 36vh;
+  height: 42vh;
   flex-shrink: 0;
   border-radius: 4px;
   background: #fff;
   box-shadow: 6px 16px 30px 0px rgba(105, 98, 98, 0.05);
 }
-.caixa_04c a {
-  color: var(--dark-gray-2, #474747);
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: Inter;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 22px;
-  letter-spacing: 0.75px;
-  border-radius: 29px;
-  background: #e7ff86;
-  gap: 10px;
-  padding: 5px 15px;
-  position: absolute;
-  margin-top: 20px;
-  margin-left: 20px;
+.caixa_04c img {
+  width: 40vh;
+  height: 30vh;
+  padding-top: 8vh;
+  margin-left: -5vh;
 }
 .caixa_04d {
-  width: 292px;
-  height: 321px;
+  width: 36vh;
+  height: 42vh;
   flex-shrink: 0;
   border-radius: 4px;
   background: #fff;
   box-shadow: 6px 16px 30px 0px rgba(105, 98, 98, 0.05);
 }
-.caixa_04d a {
-  color: var(--dark-gray-2, #474747);
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: Inter;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 22px;
-  letter-spacing: 0.75px;
-  border-radius: 29px;
-  background: #e7ff86;
-  gap: 10px;
-  padding: 5px 15px;
-  position: absolute;
-  margin-top: 20px;
-  margin-left: 20px;
+.caixa_04d img {
+  width: 40vh;
+  height: 30vh;
+  padding-top: 8vh;
+  margin-left: -5vh;
 }
 .caixa_05 {
   display: flex;
-  justify-content: flex-start;
-  padding-left: 80px;
-  padding-top: 20px;
+  justify-content: space-around;
+  padding-left: 8vh;
+  padding-right: 8vh;
+  padding-top: 3vh;
 }
 .text_05a {
-  text-align: start;
-  padding-right: 87px;
+  width: 40vh;
+  height: 20vh;
+  margin-left: -2vh;
 }
 .text_05a p {
   color: var(--light-gray, #8f8f8f);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Inter;
-  font-size: 12px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 700;
   letter-spacing: 0.75px;
   line-height: 0%;
 }
+/* Parei aquiiiii */
 .text_05a h4 {
   color: var(--dark-gray-2, #474747);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 0%;
   letter-spacing: 0.75px;
-  margin-left: -70px;
+  margin-left: -8vh;
 }
 .text_05a span {
   color: var(--light-gray, #8f8f8f);
@@ -740,24 +757,24 @@
 }
 .text_05a .negrito_01 {
   color: #1f1f1f;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   font-weight: bold;
   line-height: 0%;
   letter-spacing: 0.75px;
-  padding-left: 6px;
+  padding-left: 1vh;
 }
 .text_05b {
-  padding-right: 86px;
+  width: 40vh;
+  height: 20vh;
+  margin-left: -14vh;
 }
 .text_05b p {
   color: var(--light-gray, #8f8f8f);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Inter;
-  font-size: 12px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 700;
   line-height: 0%;
@@ -765,14 +782,13 @@
 }
 .text_05b h4 {
   color: var(--dark-gray-2, #474747);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 0%;
   letter-spacing: 0.75px;
-  margin-left: -70px;
+  margin-left: -8vh;
 }
 .text_05b span {
   color: var(--light-gray, #8f8f8f);
@@ -780,24 +796,23 @@
 }
 .text_05b .negrito_02 {
   color: #1f1f1f;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   font-weight: bold;
   line-height: 0%;
   letter-spacing: 0.75px;
-  padding-left: 6px;
+  padding-left: 1vh;
 }
 .text_05c {
-  padding-right: 86px;
+  width: 40vh;
+  height: 20vh;
 }
 .text_05c p {
   color: var(--light-gray, #8f8f8f);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Inter;
-  font-size: 12px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 700;
   line-height: 0%;
@@ -805,14 +820,13 @@
 }
 .text_05c h4 {
   color: var(--dark-gray-2, #474747);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 0%;
   letter-spacing: 0.75px;
-  margin-left: -70px;
+  margin-left: -8vh;
 }
 .text_05c span {
   color: var(--light-gray, #8f8f8f);
@@ -820,21 +834,22 @@
 }
 .text_05c .negrito_03 {
   color: #1f1f1f;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   font-weight: bold;
   line-height: 0%;
   letter-spacing: 0.75px;
-  padding-left: 6px;
+}
+.text_05d {
+  width: 40vh;
+  height: 20vh;
 }
 .text_05d p {
   color: var(--light-gray, #8f8f8f);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Inter;
-  font-size: 12px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 700;
   line-height: 0%;
@@ -842,14 +857,13 @@
 }
 .text_05d h4 {
   color: var(--dark-gray-2, #474747);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 0%;
   letter-spacing: 0.75px;
-  margin-left: -70px;
+  margin-left: -8vh;
 }
 .text_05d span {
   color: var(--light-gray, #8f8f8f);
@@ -857,15 +871,13 @@
 }
 .text_05d .negrito_04 {
   color: #1f1f1f;
-  font-feature-settings: "clig" off, "liga" off;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   font-weight: bold;
   line-height: 10px;
   letter-spacing: 0.75px;
-  padding-left: 6px;
 }
 .caixa_06 {
   display: flex;
