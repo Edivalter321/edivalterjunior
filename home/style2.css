@@ -3,7 +3,7 @@
 body {
   padding: 0;
   margin: 0;
-  width: 100%;
+  width: 176vh;
   background: var(--GrayScale-Background, #f8f8f8);
 }
 #container {
@@ -156,6 +156,10 @@ body {
   margin-right: 3vh;
   text-decoration: none;
 }
+main {
+  width: 176vh;
+  height: 310vh;
+}
 .text_03 {
   display: flex;
   justify-content: space-between;
@@ -282,55 +286,64 @@ body {
 .lado_b1 {
   width: 130vh;
   height: 270vh;
-  margin-left: 30px;
-  margin-right: 90px;
+  margin-left: 4vh;
+  margin-right: 8vh;
 }
 .caixas_img {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding-right: 8vh;
 }
 .caixa_a {
-  width: 330px;
-  height: 360px;
+  width: 38vh;
+  height: 40vh;
   border-radius: 4px;
   background: #fff;
   box-shadow: 6px 16px 30px 0px rgba(105, 98, 98, 0.05);
 }
 .caixa_a button {
+  width: 12vh;
+  height: 4.5vh;
   font-family: Inter;
-  font-size: 14px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 700;
   line-height: 22px;
   letter-spacing: 0.75px;
   color: var(--dark-gray-2, #474747);
   display: inline-flex;
-  padding: 5px 15px;
+  padding: 1vh 2vh;
   justify-content: center;
   align-items: center;
   gap: 10px;
   border: 0;
   border-radius: 29px;
   background: #e7ff86;
-  margin-top: 20px;
-  margin-left: 20px;
+  margin-top: 4vh;
+  margin-left: 3vh;
   position: absolute;
 }
 .caixa_a img {
-  margin-top: 65px;
-  margin-left: 10px;
+  width: 40vh;
+  height: 30vh;
+  margin-top: 6vh;
+  margin-left: -3.5vh;
 }
 .caixa_text {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin-left: 3vh;
+  margin-right: 8vh;
+  gap: 10px;
 }
 .text_a {
-  width: 330px;
+  width: 40vh;
+  height: 18vh;
 }
 .text_a p {
   color: var(--light-gray, #8f8f8f);
   font-family: Inter;
-  font-size: 12px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 700;
   line-height: 20px;
@@ -339,7 +352,7 @@ body {
 .text_a h4 {
   color: var(--dark-gray-2, #474747);
   font-family: Inter;
-  font-size: 20px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
@@ -349,7 +362,7 @@ body {
 .text_a h3 {
   color: var(--dark-gray, #1f1f1f);
   font-family: Inter;
-  font-size: 20px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: 20px;
@@ -359,7 +372,7 @@ body {
 .text_a h3 span {
   color: var(--light-gray, #8f8f8f);
   font-family: Inter;
-  font-size: 20px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
@@ -367,160 +380,149 @@ body {
   text-decoration: line-through;
   padding-right: 5px;
 }
-.rodape {
-  width: 176vh;
-  height: 43vh;
-  background: var(--dark-gray, #1f1f1f);
-}
 .icons {
   position: absolute;
-  padding-left: 20px;
 }
 .face img {
-  width: 13px;
-  height: 18px;
-  padding-left: 70px;
-  margin-top: 16rem;
-  padding-right: 20px;
+  width: 2.5vh;
+  height: 2.5vh;
+  margin-top: 35vh;
+  padding-right: 2vh;
 }
 .inst img {
-  width: 20px;
-  height: 20px;
-  padding-right: 20px;
+  width: 3vh;
+  height: 3vh;
+  padding-right: 2vh;
 }
 .twi img {
-  width: 19x;
-  height: 18px;
+  width: 3vh;
+  height: 3vh;
 }
 .final_001 {
-  height: 300px;
+  height: 40vh;
   flex-shrink: 0;
   background: var(--dark-gray, #1f1f1f);
   display: flex;
   justify-content: flex-start;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-bottom: 20px;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 .final_a {
-  width: 307px;
-  padding-left: 75px;
-  padding-right: 220px;
+  width: 40vh;
+  padding-right: 30vh;
 }
 .final_a img {
+  width: 4vh;
+  height: 4vh;
   position: absolute;
-  padding-top: 51px;
+  padding-top: 5vh;
 }
 .final_a h4 {
   color: var(--white, #fff);
   font-family: Inter;
-  font-size: 35px;
+  font-size: 26px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   letter-spacing: -0.364px;
-  padding-left: 35px;
-  padding-bottom: 30px;
+  padding-left: 4.5vh;
+  margin-top: 4.5vh;
 }
 .final_a p {
-  width: 307px;
+  width: 40vh;
   color: var(--white, #fff);
   font-family: Inter;
-  font-size: 14px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px;
-  margin-top: -50px;
+  line-height: 20px;
+  margin-top: -2vh;
 }
 .final_b {
-  width: 126px;
+  width: 30vh;
   display: flex;
   flex-direction: column;
-  padding-right: 200px;
   text-decoration: none;
+  padding-right: 8vh;
 }
 .final_b h6 {
   color: var(--white, #fff);
   font-family: Inter;
-  font-size: 16px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  padding-top: 10px;
-  margin-bottom: 20px;
 }
 .final_b a {
   color: var(--white, #fff);
   font-family: Inter;
-  font-size: 12px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px;
-  margin-bottom: 8px;
+  line-height: 20px;
+  margin-bottom: 2vh;
   text-decoration: none;
 }
 .final_c {
-  width: 126px;
+  width: 20vh;
   display: flex;
   flex-direction: column;
-  padding-right: 220px;
+  padding-right: 8vh;
 }
 .final_c h6 {
   color: var(--white, #fff);
   font-family: Inter;
-  font-size: 16px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  padding-top: 10px;
-  margin-bottom: 20px;
 }
 .final_c a {
   color: var(--white, #fff);
   font-family: Inter;
-  font-size: 12px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px;
+  line-height: 20px;
   margin-bottom: 8px;
   text-decoration: none;
 }
 .final_d {
-  width: 180px;
+  width: 30vh;
 }
 .final_d h6 {
   color: var(--white, #fff);
   font-family: Inter;
-  font-size: 16px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  padding-top: 10px;
-  margin-bottom: 20px;
 }
 .final_d p {
   color: var(--white, #fff);
   font-family: Inter;
-  font-size: 12px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px;
-  margin-bottom: 8px;
+  line-height: 20px;
 }
 .text_final hr {
   fill: var(--white, #fff);
   opacity: 0.3;
-  margin-left: 90px;
-  margin-right: 90px;
+  margin-top: 5vh;
 }
 .text_final p {
   text-align: center;
-  padding-left: 90px;
-  padding-right: 90px;
   color: var(--white, #fff);
   font-family: Inter;
-  font-size: 13px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 20px;
+}
+footer {
+  width: 176vh;
+  background: var(--dark-gray, #1f1f1f);
+  padding-left: 8vh;
+  padding-right: 8vh;
 }
