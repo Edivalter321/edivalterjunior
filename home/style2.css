@@ -3,7 +3,7 @@
 body {
   padding: 0;
   margin: 0;
-  width: 176vh;
+  width: 100%;
   background: var(--GrayScale-Background, #f8f8f8);
 }
 #container {
@@ -408,8 +408,8 @@ main {
   padding-bottom: 5vh;
 }
 .final_a {
-  width: 40vh;
-  padding-right: 30vh;
+  width: 30vh;
+  padding-right: 40vh;
 }
 .final_a img {
   width: 4vh;
@@ -425,8 +425,8 @@ main {
   font-weight: 600;
   line-height: normal;
   letter-spacing: -0.364px;
-  padding-left: 4.5vh;
   margin-top: 4.5vh;
+  margin-left: 4.5vh;
 }
 .final_a p {
   width: 40vh;
@@ -443,7 +443,7 @@ main {
   display: flex;
   flex-direction: column;
   text-decoration: none;
-  padding-right: 8vh;
+  padding-right: 5vh;
 }
 .final_b h6 {
   color: var(--white, #fff);
@@ -467,7 +467,7 @@ main {
   width: 20vh;
   display: flex;
   flex-direction: column;
-  padding-right: 8vh;
+  padding-right: 3vh;
 }
 .final_c h6 {
   color: var(--white, #fff);
@@ -521,7 +521,8 @@ main {
   line-height: 20px;
 }
 footer {
-  width: 176vh;
+  width: 162vh;
+  height: 62vh;
   background: var(--dark-gray, #1f1f1f);
   padding-left: 8vh;
   padding-right: 8vh;
